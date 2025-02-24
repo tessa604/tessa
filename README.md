@@ -4,7 +4,7 @@
 
 [SSLSpeedy][at1]
 
-[at1]:https://socksoso.com/
+[at1]:https://socksoso.com
 
 
 科学上网-翻墙、免费翻墙、免费科学上网、软件、VPN
