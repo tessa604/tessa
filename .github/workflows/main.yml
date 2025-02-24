@@ -1,60 +1,30 @@
-name: Auto Update Wiki and README
+name: Update Script and Display Current Time
 
 on:
-  schedule:
-    - cron: '*/10 * * * *'  # 每 10 分钟执行一次
-  workflow_dispatch:       # 支持手动触发
-
-permissions:
-  contents: write  # 允许写入仓库内容
+  push:
+    paths:
+      - 'scripts/my-script.sh'  # 监控特定的脚本文件
 
 jobs:
-  update-wiki-readme:
+  update-script:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. 检出主仓库（包含 README.md 和脚本）
-      - name: Checkout Main Repository
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
+    - name: Checkout repository
+      uses: actions/checkout@v2
 
-      # 2. 克隆 Wiki 仓库到 wiki 目录
-      - name: Checkout Wiki Repository
-        run: |
-          git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Alvin9999/new-pac.wiki.git wiki
+    - name: Get current time
+      id: get_time
+      run: echo "::set-output name=current_time::$(date +'%Y-%m-%d %H:%M:%S')"
 
-      # 3. 设置 Python 环境
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
+    - name: Display current time
+      run: echo "Current time is ${{ steps.get_time.outputs.current_time }}"
 
-      # 4. 安装 Python 依赖
-      - name: Install Dependencies
-        run: |
-          pip install pytz
+    - name: Give execute permission to the script
+      run: chmod +x scripts/my-script.sh
 
-      # 5. 运行更新脚本
-      - name: Run Update Script
-        run: |
-          python update_wiki_page.py
+    - name: Run the updated script
+      run: ./scripts/my-script.sh
 
-      # 6. 提交和推送更新到主仓库（README.md）
-      - name: Commit and Push README Updates
-        run: |
-          git config --local user.name "github-actions"
-          git config --local user.email "actions@github.com"
-          git add README.md
-          git commit -m "Auto-update README.md: Update timestamp" || echo "No changes to commit"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Alvin9999/new-pac.git
-
-      # 7. 提交和推送更新到 Wiki 仓库
-      - name: Commit and Push Wiki Updates
-        run: |
-          cd wiki
-          git config --local user.name "github-actions"
-          git config --local user.email "actions@github.com"
-          git add .
-          git commit -m "Auto-update Wiki: Increment domains and update timestamp" || echo "No changes to commit"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Alvin9999/new-pac.wiki.git
+    - name: Display a final message with the time
+      run: echo "Script executed at ${{ steps.get_time.outputs.current_time }}"
