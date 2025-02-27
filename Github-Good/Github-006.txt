@@ -1,0 +1,6 @@
+otpauth://totp/GitHub:Jamph-F?secret=ISAGGWBK7ZR4373E&issuer=GitHub
+otpauth://totp/GitHub:jamph893?secret=BFDOU2NXODKSDFB5&issuer=GitHub
+otpauth://totp/GitHub:tessa604?secret=TFMRZBL5X4I3WCRC&issuer=GitHub
+otpauth://totp/GitHub:fjf131410?secret=KWTDNEMCOBEKVLFS&issuer=GitHub
+otpauth://totp/GitHub:jamph826?secret=3FPHIQL3PHIR7BFR&issuer=GitHub
+otpauth://totp/GitHub:jamph137?secret=CF2KLDYHMKAIONVN&issuer=GitHub

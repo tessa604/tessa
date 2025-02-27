@@ -1,0 +1,8 @@
+otpauth://totp/Google:jamph619%40gmail.com?secret=2pauaqkykqwc3pqmv2xuibm7jxgaqkow&issuer=Google
+otpauth://totp/Google:jamph604%40gmail.com?secret=zowbwzkmh64kmkkrw7feg7fihpohxzre&issuer=Google
+otpauth://totp/Google:jamph137%40gmail.com?secret=gftzp2hzc4ktzcvbhcqoxgdoggbw4xsn&issuer=Google
+otpauth://totp/Google:jamph131411%40gmail.com?secret=u6gygyynpefuowws3ky3csskhmmv4nhm&issuer=Google
+otpauth://totp/Google:jamph619675941%40gmail.com?secret=kposkd3oz6w6ti5pavmj6wlcb6n24jj5&issuer=Google
+otpauth://totp/Google:826972411%40qq.com?secret=mjsfpfu5gp3umfsz4xc72bbbj3dkffjr&issuer=Google
+otpauth://totp/Google:893050765%40qq.com?secret=c35uwn2bviqsoaznxysdd3lzwx44wwuy&issuer=Google
+otpauth://totp/Google:fjf131410%40163.com?secret=je4weijjqsq4dblon4udnzrbxb3fkdq3&issuer=Google
