@@ -1,1 +1,15 @@
 
+
+
+git pull，更新整包
+git clone，克隆git仓库
+pip intall -r requirements.txt
+
+cd ..\..\
+run_nvidia_gpu.bat
+ComfyUI\custom_nodes
+
+
+
+======================================================
+======================================================
