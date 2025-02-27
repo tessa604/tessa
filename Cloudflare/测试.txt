@@ -1,0 +1,36 @@
+
+
+git pull，更新整包
+git clone，克隆git仓库
+pip intall -r requirements.txt
+
+cd ..\..\
+run_nvidia_gpu.bat
+ComfyUI\custom_nodes
+
+git clone https://github.com/bmaltais/kohya_ss.git
+
+
+================================================================
+================================================================
+
+查看python版本
+python --version
+
+查看python所在路径
+python -c "import sys; print(sys.executable)"
+
+
+================================================================
+================================================================
+  
+Crx搜搜
+https://www.crxsoso.com/
+一个牛X的扩展和应用商店
+身份验证器
+https://www.crxsoso.com/webstore/detail/bhghoamapcdpbohphigoooaddinpkbai
+https://crxdl.com
+
+
+================================================================
+================================================================
