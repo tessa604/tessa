@@ -15,9 +15,15 @@ VPN
 <br>
 [点击][at3]
 
+<br>
+
+[V2ray-Configs][at4]
+
 [at1]:https://socksoso.com/main.php
 [at2]:https://github.com/chengaopan/AutoMergePublicNodes
 [at3]:https://yaney.top/article/example-3
+[at4]:https://github.com/barry-far/V2ray-Configs
+
 
 <br>
 
