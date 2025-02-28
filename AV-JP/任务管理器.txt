@@ -1,0 +1,228 @@
+
+
+
+
+
+Windows键+，：暂时隐藏窗口以显示桌面。
+
+Windows键+D：最小化所有窗口并转到桌面。
+
+Ctrl+Shift+M：恢复所有最小化的窗口。
+
+Windows键+Home：最小化除你正在使用的窗口之外的所有窗口。	
+
+Windows键+L：锁定你的PC并转到锁定屏幕。
+
+Windows键+E：打开文件资源管理器。
+
+任务视图和窗口管理
+Windows键+Tab
+Alt+Tab
+
+
+虚拟桌面
+Windows键+Ctrl+D：创建一个新的虚拟桌面。
+
+Windows键+Ctrl+左箭头键：转到左侧的虚拟桌面。
+
+Windows键+Ctrl+右箭头键：转到右侧的虚拟桌面。
+
+Windows键+Ctrl+F4：关闭当前虚拟桌面。
+
+
+窗口对齐
+Windows键+左箭头键：将当前窗口移到左侧。
+
+Windows键+右箭头键：将当前窗口移到右侧。
+
+Windows键+向上箭头键：将当前窗口移到到顶部。
+
+Windows键+向下箭头键：将当前窗口移到到底部。
+
+
+
+Alt+F4：关闭当前窗口。
+Windows键+T：循环访问任务栏项。
+Windows键+Shift+左箭头（或右箭头）：将窗口移动到另一个显示。
+
+
+
+
+==============================================================
+==============================================================
+
+
+主DNS
+DHCP
+自动配置
+IPv4地址：
+子网掩码：
+DHCP 服务器
+DNS 服务器
+
+shift+右键“复制文件地址”
+===========================需要管理员权限
+
+start
+notepad.exe
+excel.exe
+
+
+
+------------------------------------------
+windows PowerShell
+------------------------------------------
+可以使用以下命令来尝试重启DNS服务器服务：PowerShell
+Restart-Service -Name "DNS Server"
+或者，如果服务名称略有不同，比如只是“DNS”：PowerShell
+Restart-Service -Name "DNS"
+如果你不确定服务的确切名称，你可以首先使用Get-Service命令
+来列出所有服务并找到与DNS相关的服务：PowerShell
+Get-Service -DisplayName *DNS*
+
+断网急救箱工具
+
+===========================
+
+要查看当前文件夹下的所有子文件夹，你可以使用以下命令：powershell
+Get-ChildItem -Directory
+如果你想要查看特定文件夹下的子文件夹，你可以指定文件夹的路径作为Get-ChildItem的参数：
+Get-ChildItem -Path "E:\AE\zuo-cs" -Directory
+
+这将列出C:\path\to\your\folder路径下的所有子文件夹。
+你还可以使用通配符来匹配文件夹名称，例如：*subfolder*
+Get-ChildItem -Path "E:\AE*subfolder*" -Directory
+
+这将列出C:\path\to\your\folder下所有名称中包含subfolder的子文件夹。
+Get-ChildItem cmdlet 还有很多其他选项和参数，可以用来过滤、排序和格式化输出。
+你可以通过运行Get-Help Get-ChildItem来获取更多关于这个命令的帮助信息。
+
+
+二、通过Start-Process命令或使用&运算符来调用安装程序的路径来完成
+Start-Process "path\to\installer.msi" -Wait
+或者
+& "path\to\installer.exe"
+
+
+
+==============================================================
+==============================================================
+
+
+
+一、重启DNS服务器：CMD
+net stop dnscache
+net start dnscache
+
+或者，如果你使用的是Windows PowerShell，可以使用以下命令：powershell
+Restart-Service -Name dnscache
+
+二、重启DHCP服务器：
+在CMD中输入“services.msc”并回车来打开它，找到“DHCP Client”，右键选“重新启动”
+
+
+========================打开 xxx某程序xxx.exe
+
+1、使用Microsoft Excel打开CSV文件：CMD
+start excel.exe "path_to_your_file.csv"
+
+2、使用记事本打开CSV文件
+start notepad.exe "path_to_your_file.csv"
+
+3. 直接使用start命令打开
+start "path_to_your_file.csv"
+
+start "Oblivion" "D:\Program Files\OblivionVPN\Oblivion Desktop\Oblivion Desktop.exe"
+start "WARP+" "C:\Program Files\Cloudflare\Cloudflare WARP\Cloudflare WARP.exe"
+
+
+==============================================================
+==============================================================
+
+
+
+控制面板，control
+任务管理器：taskmgr
+注册表：regedit
+蓝牙：control bthprops.cpl
+网络连接：ncpa.cpl
+打开文件资源管理器：explorer F:\@F@Design\F@AI23
+
+
+组策略编辑器 (Group Policy Editor)：gpedit.msc
+计算机管理 (Computer Management)：compmgmt.msc
+本地安全策略 (Local Security Policy)：secpol.msc
+服务 (Services)：ncpa.cpl
+磁盘管理 (Disk Management)：diskmgmt.msc
+设备管理器 (Device Manager)：devmgmt.msc
+事件查看器 (Event Viewer)：eventvwr.msc
+
+
+
+
+
+start "C:\路径"，打开程序
+copy "E:\AE\one.text" "F:\AE\"，
+
+
+
+
+@echo off
+for /f "delims=" %%a in (tessa01.txt) do %%a
+
+将上述命令保存为一个批处理文件（例如run_commands.bat）
+创建批处理文件
+Windows批处理：bat文件学习
+PATH环境变量.exe
+---------------------------------------------------------
+直接通过CMD执行：CMD
+type commands.txt | cmd /c
+---------------------------------------------------------
+1、使用REM命令：实现类似注释的效果
+REM 这是一个注释
+echo Hello, World!  REM 这行命令后面跟着一个注释
+
+2、使用冒号(:)
+: 这是一个注释
+echo Hello, World!
+---------------------------------------------------------
+
+
+powsershell安装和卸载程序的命令是什么
+
+
+
+==============================================================
+==============================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
