@@ -1,0 +1,535 @@
+
+
+
+
+==================================================================
+==================================================================
+ 
+东芝-TR200 240G固态硬盘
+希捷 ST1000DM010-2EP102，接口SATA III，容量1T，7200转/分，品牌SEAGATE
+HAN HAN2400 HD240V，24英寸
+图像高宽比：宽屏16:9
+
+显卡
+NVIDIA GeForce GT 1030 2GB
+显卡厂商：七彩虹，芯片厂商：NVIDIA，独立显卡
+内存条：
+16GB 金士顿 DDR4 2666MHz 16GB
+
+
+WARP
+05BE77C4-B856-5849-94E2-D7B60A4E9C53
+
+==================================================================
+==================================================================
+
+blenderco.cn
+
+
+生成warp+密钥
+FDm74Y20-WB76L25K-Kk698Zu2
+
+在线生成Warp+ 24PB密钥
+https://www.upx8.com/warp.html
+Key: 4uMYq630-6OC50Av4-51Gu7UB8 (24598562 GB)
+
+
+
+==================================================================
+==================================================================
+
+
+stay with me
+heaven
+way back home
+baby i'm sorry
+再次见到你
+love scenario
+死一样的通过
+been through
+back seat
+
+
+就让这大雨全都落下
+我想念-
+毒药-Zealot周星星
+零距离-半空.mp3
+
+潜龙勿用
+奇妙仲夏之夜
+什么是快乐星球
+首战必胜
+俯察品类之盛
+让飞碟再飞会吧
+
+洋澜-傻子和骗子
+王一一-我放下了喜欢捡起了孤单
+
+我从崖边跌落
+离别开出花-就是南方凯
+赐我-一只白羊
+赐我-小时姑娘
+
+罗刹海市
+武家坡
+走卒
+声声慢
+Nijamena.mp3
+笛子曲_锦绣未央
+嬉戏-胡伟立
+画中的你
+难却
+山河
+陆深-枉游
+佛光初现-唢呐版
+
+==================================================================
+==================================================================
+
+
+
+抱一抱就当作从没有在一起，好不好要解释都已经来不及
+算了吧我付出过什么没关系，我忽略自己就因为遇见你
+没办法好可怕，那个我不像话，一直奋不顾身，是我太傻
+说不上爱别说谎，就一点喜欢，说不上恨别纠缠，
+
+ 01 . 谷底有花 - 画久 
+ 02 . 荣枯 
+ 03 . 巫山换人间 - 兔裹煎蛋卷 
+ 04 . 璐爺 - 大天蓬  
+ 05 . 離人賦 - 雲汐 
+ 06 . 三拜紅塵涼 - 尹昔眠 
+ 07 . 泛舟人-王秋实 
+ 08 . 翩翩-晴愔,莹酱 
+ 09 . 梦轩篆-京词 
+ 10 . 弱水三千 
+ 11 . 指尖笑-我点高香敬神明 
+ 12 . 司南 - 春三月 
+ 13 . 無人區玫瑰 - 一顆狼星 
+ 14 . 一顆狼星 - 海市蜃樓  
+ 15 . 豆包 - 作酒 
+
+
+==================================================================
+==================================================================
+
+
+Meichidark_Mix
+Meichidark_Mix-V4.5
+Meichidark_Mix_V5
+Japanese coser mix
+Comfyui_CXH_joy_caption
+
+
+魔塔社区
+https://modelscope.cn/models
+
+
+https://github.com/StartHua/Comfyui_CXH_joy_caption
+https://github.com/ltdrdata/ComfyUI-Impact-Pack
+https://github.com/OliverCrosby/Comfyui-Minimap
+https://github.com/OgreLemonSoup/ComfyUI-Load-Image-Gallery
+https://github.com/ltdrdata/ComfyUI_Prompt_Gallery
+
+
+ComfyUI-Miaoshouai-Tagger
+Florence-2-X-PromptGen-v1.5
+
+
+==================================================================
+==================================================================
+
+
+prompt-all-in-one
+
+
+rembg插件安装地址：
+https://github.com/AUTOMATIC1111/stable-diffusion-webui-rembg
+https://github.com/danielgatis/rembg
+大模型：JuggernautXL
+
+
+https://github.com/toriato/stable-diffusion-webui-wd14-tagger
+https://github.com/VinsonLaro/stable-diffusion-webui-chinese
+https://github.com/toshiaki1729/stable-diffusion-webui-dataset-tag-editor
+
+
+https://github.com/adieyal/sd-dynamic-prompts
+https://github.com/ototadana/sd-face-editor
+
+
+
+
+AIGC绘画设计基础——ai绘画主流模型
+https://blog.csdn.net/2401_84815950/article/details/139438635
+5款超实用的 Stable Diffusion WebUI 进阶插件推荐
+https://www.uisdc.com/stable-diffusion-webui-3
+图像控制插件 ControlNet (OpenPose) 配置
+https://download.csdn.net/blog/column/12396158/131591887
+
+
+
+Cut off/ 精准控制物体颜色
+https://github.com/hnmr293/sd-webui-cutoff
+After Detailer/人脸修复
+https://github.com/Bing-su/adetailer
+
+face_yolov8n.pt / face_yolov8s.pt：针对 2D/写实风的脸部
+hand_yolov8n.pt ：针对 2D/写实风的手部
+person_yolov8n-seg.pt / person_yolov8s-seg.pt：针对 2D/写实风的人物
+mediapipe_face_full / short / mesh：针对写实风的脸部
+mediapipe_face_mesh_eyes_only：针对写实风的眼睛
+
+Ultimate SD Upscale / 图像无限放大
+https://github.com/Coyote-A/ultimate-upscale-for-automatic1111
+StableSR / 图片高清放大
+https://github.com/pkuliyi2015/sd-webui-stablesr
+
+
+Stable-diffusion
+counterfeitV2525d.safetensors
+ddicon_v20.ckpt
+IP Design_3D化模型_V1.1.safetensors
+全网首发_2D萝莉mix大模型(红鱼创新)
+全网首发_SHMILY古典炫彩_v1.0.safetensors
+gamelconlnstitute_v30.safetensors
+bdicon_v10.safetensors
+
+VAE
+Anything-V3.0.vae.pt
+Counterfeit-V2.5.vae.pt
+
+七沢みあ NanasawaMia
+
+
+3Drendering电商展台三维渲染效果_v1.0.safetensors
+revAnimated_v122.safetensors
+bdicon_v10.safetensors
+macc-平面模特_v2.0.safetensors
+
+
+
+==================================================================
+==================================================================
+
+
+
+在 CloudFlare Workers 或 Pages 部署 VLESS 节点
+Pinterest
+.md编辑器
+Cloudflare
+
+
+
+Cloudflare_VLESS
+
+
+==================================================================
+==================================================================
+
+
+
+sd-webui-openpose-editor-main
+Lora提示词助手
+UI界面美化（Kitchen主题）
+完美手部修复插件（Depth Library）
+提示词标签选择器（Easy Prompt Selector）
+
+
+
+photomaxultrav1_.safetensors(ai绘画模型)
+
+
+大模型：
+DreamShaper XL1.0（通用写实，对标MJ5.2）
+SDXL_Niji_Special Edition（通用卡通，对标Niji5）
+LEOSAM's HelloWorld 新世界 SDXL（亚洲真人）
+DynaVision XL（通用3D）
+Microsoft Design SDXL（UI图标）
+
+LoRA：
+Juggernaut Cinematic XL LoRA（电影感）
+InkPunk XL LoRA（墨水朋克）
+Voxel XL LoRA（体素风格）
+
+
+
+
+1 AI图像搜索网站：Lexica、Arthub、Kera、ArtSpark、OpenArt、MidJourney Community、PromptHero、PromptBase、NovelAI元素法典
+
+2 提示词生成器网站：PromptoMANIA、Midjourney Prompt Helper、Midjourney Prompt生成器、Prompt Tool、NovelAI tag生成器、魔咒百科词典
+
+
+https://github.com/facebookresearch/segment-anything
+
+https://github.com/ZrrSkywalker/Personalize-SAM
+https://github.com/Vision-Intelligence-and-Robots-Group/count-anything
+https://github.com/tianrun-chen/SAM-Adapter-PyTorch
+
+XXMixDream_v1.0 - SeaArt AI 模型
+Japanese_Airi - SeaArt AI 模型
+ItoRiria_JP_Idol - SeaArt AI 模型
+Taiwan doll likeness - SeaArt AI 模型
+National goddess - SeaArt AI 模型
+
+comfyui wd1.4 Tagger
+
+
+DFLiuLi-Bd
+HYy1gj
+RS_CuHei
+RS_XiYuan
+
+XXMixDream_v1.0
+
+
+majicmixReverie_v10
+killer胸部大小调节器v2
+detailSliderALT
+GoodHands-beta2
+EasyNegative
+verybadimagenegative
+mediapipe_face_full
+Mimic scale
+ADetailer version
+control_v1
+AddNet
+
+
+大长腿
+MeinaCetusOrionMix
+
+ChilloutMix-Ni-pruned-fp32-fix，3.97G
+ChilloutMix-Ni-pruned-fp16-fix，1.98G
+Anything V
+
+DFLiuLi-Bd
+HYy1gj
+RS_CuHei
+RS_XiYuan
+SeiKaiCB1Std-Regular
+
+WorkFlies
+
+12000+ 图提示词库
+SD工具 &学习大礼包
+
+AIGC工具库
+精品AIGC学习书籍手册
+
+prompt tool
+promptFolder
+openpromptStudio
+Notion提示词词典
+AIGC提示词库
+
+
+SD优质提示词库
+
+
+Refline 0pores
+exfolltate tender
+
+
+OC V4.04中文版
+用户名: Ev3rSmok3
+密码:iBeforeEexceptAfterC
+
+
+comfyui_Flux，满血版整合包20240902，138G
+comfyui整合包V2.0，黎黎原上咩，135G
+
+LivePortrait表情迁移安装包
+SD Webui中文版安装包
+SD模型等
+
+视角类关键词整理
+https://zhuanlan.zhihu.com/p/639625658?utm_id=0
+
+Stable Diffusion｜提示词高阶用法（三）角色指定
+https://zhuanlan.zhihu.com/p/649478119
+https://zhuanlan.zhihu.com/p/651648278
+
+
+墨幽的姐姐——墨幽岚
+墨幽人造人
+SixGod_K提示词
+
+oldsix
+sd-webui-oldsix-prompt
+
+
+从扩展列表下载：
+https://gitcode.net/rubble7343/sd-webui-extensions/raw/master/index.json
+备用镜像连接：https://gitee.com/akegarasu/sd-webui-extensions/raw/master/index.json
+https://gitcode.net/rubble7343/sd-webui-extensions/raw/master/index.json
+
+AI绘图tag生成器
+AutismMix SDXL
+
+基础起手式，预设样式
+blue_pencil-XL
+autismmixSDXL_autismmixConfetti
+MixproV3
+Chilloutmix
+dreamshaper
+
+
+
+==================================================================
+==================================================================
+
+
+AI Infinity Realistic
+Checkpoint
+SDXL Scramble Wonder
+DreamShaper
+
+LORA
+Tokyo Street Fashion Style XL
+
+Checkpoint
+Quartz
+LORA
+【Character / Art Style】Fashion Girl
+LORA
+Incoming Kiss | Concept Lora 445
+LORA
+Katou Megumi 5 in one（saekano anime+novel style）/加藤惠五合一lora(小说+动漫风)-FB
+
+Checkpoint
+COOI 2.5AND2 XL
+LORA
+Complex Robot
+
+
+Checkpoint
+Ether Blu Mix
+LORA
+Trix girl 港风系列
+LORA
+lovely girl 头像
+LORA
+Big ass big breast breasts girls
+
+
+==================================================================
+==================================================================
+
+T8整合包0904
+通过网盘分享的文件：comfyui0904
+链接: https://pan.baidu.com/s/1wld-66SUhWLtUCQm1Q-jzQ
+提取码: dkw7
+
+
+
+AIGC网盘资源合集：https://pan.quark.cn/s/a12a4acdf4d3
+爱发电赞助（会员工作流+整合包分享）：https://afdian.net/a/rick_c137
+【免费】“AIGC网上冲浪吧”知识星球链接：https://t.zsxq.com/19IUEI0fK
+
+OpenArt、GitHub、Huggingface、Civitai使用方法
+
+敏神SD-WEBUI
+segment anything迎来第二代
+企鹅866973278
+comfyui初步实现AI模特自由
+controlNet解锁局部重绘扩图新技法
+T8 comfyui进阶教程
+不会吧老阿sir
+24年8月comfyui最新超强风格迁移工作流
+comfyui每日一插件
+pan.quark.cn/s/729a9e220c96
+pan.quark.cn/s/14dca0dfd1df
+设计学僧
+
+ZHO-ZHO-ZHO/ComfyUI-Qwen-2
+介绍一个线稿类型的controlnet模型——MistoLine
+官方地址：https://huggingface.co/TheMistoAI/MistoLine/tree/...
+
+
+
+==================================================================
+==================================================================
+
+大模型
+v1-5-pruned-emaonly.ckpt
+Aiarch_7000.ckpt
+final-pruned.ckpt
+ghostmix_v20Bakedvae.safetensors
+saikakawakita_saikaV30.safetensors
+全彩动漫CG模型.safetensors
+超梦幻2.5D模型.safetensors
+GhostMix_V2.0.safetensors
+
+微调模型
+blindbox_v1_mix.safetensors
+LunZi日漫画风格-小说推文插画_v1.0.safetensors
+Xian-T手部修复lora_v3.0.safetensors
+简笔涂鸦.safetensors
+首发推荐_必备可爱头像 男孩_V1.0.safetensors
+
+promptalot，提示词快捷复制
+InsightFaceSwap，人物准确换脸
+Tracejourney，图像转SVG矢量文件
+Pika，AI短视频生成工具
+image Prompter,提示词工具
+
+AI技术大本营
+have Nothing
+comfyui真人照片转迪士尼风格
+
+AI咒语
+
+基础文档
+1.提示词应用
+2.文生图基本流程
+3.图生图功能
+4.文字和符号案例标准流程
+5.图片优化和高清放大
+6.局部重绘(图生图)
+7.Controlnet
+8.SD案例
+
+SD的4种放大技法
+SD关键词反推
+SD局部重绘功能和重绘蒙版功能
+Openpose人物摄影案例
+
+MJ+SD精准控制技法
+SD风格迁移功能讲解
+SD拓展插件
+SDXL介绍及用法
+SD商业落地案例解析
+
+
+包装插件神器
+sd-vae-ft-mse.safelensors
+SDXL1.0\sdxl\sd_xl_base_1.0.safetensors
+③对应模型：
+SD1.5 模型：control_v11p_sd15_canny、t2iadapter_canny_sd1.5v2
+SDXL 模型：control-lora-canny-rank128、control-lora-canny-rank256
+
+后悔的八大女帝
+craze_Starter
+clip_g.pth
+ControlNet-SD1.5模型，下载ControlNet模型和模型对应的配置文件(yaml)文件
+
+Lyriel
+lora训练器
+SD电商模特换装
+SD线稿转3D
+
+
+https://civitai.com/models/217692/mexxldimsdxllcm2
+
+
+==================================================================
+==================================================================
+==================================================================
+==================================================================
+
+
+
+
+
+
