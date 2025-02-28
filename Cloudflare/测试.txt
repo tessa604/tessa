@@ -1,5 +1,6 @@
 
 
+
 git pull，更新整包
 git clone，克隆git仓库
 pip intall -r requirements.txt
@@ -9,6 +10,14 @@ run_nvidia_gpu.bat
 ComfyUI\custom_nodes
 
 git clone https://github.com/bmaltais/kohya_ss.git
+
+
+python.exe -m pip install --upgrade pip
+
+pip install requests beautifulsoup4
+pip install selenium
+
+
 
 
 ================================================================
@@ -21,6 +30,8 @@ python --version
 python -c "import sys; print(sys.executable)"
 
 
+
+
 ================================================================
 ================================================================
   
@@ -30,6 +41,10 @@ https://www.crxsoso.com/
 身份验证器
 https://www.crxsoso.com/webstore/detail/bhghoamapcdpbohphigoooaddinpkbai
 https://crxdl.com
+
+
+
+
 
 
 ================================================================
