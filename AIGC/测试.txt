@@ -1,5 +1,177 @@
 
 
+
+
+git pull
+git clone https://github.com/ZHO-ZHO-ZHO/ComfyUI-Workflows-ZHO.git
+
+hand cream
+fragrance art
+
+
+
+cd ..\..\
+run_nvidia_gpu.bat
+
+cd ComfyUI\custom_nodes
+reset,重置
+init，创建一个空仓库
+
+Qwen2 ModelLoader Zho
+DisplayText Zho
+Qwen2 Zho
+
+git clone https://github.com/ZHO-ZHO-ZHO/ComfyUI-Qwen-2.git
+https://github.com/ZHO-ZHO-ZHO/comfyui-portrait-master-zh-cn?tab=readme-ov-file
+
+==========================================================================
+==========================================================================
+
+3.2.3、各种模型存放路径
+这里将comfyUI里面的目录结果做一下介绍，你可以和SD公用，也可以单独使用，下面路径保存对应的模型。
+下面是官方版本的路径存放，秋叶整合包的也类似，自己对比下即可。
+
+\ComfyUI\custom_nodes:  各种安装的插件存放路径
+\ComfyUI\models\checkpoints:  大模型存放路径
+\ComfyUImodels/loras:LoRS  模型存放路径
+
+\ComfyUImodelslembeddings:Embeddings  存放路径
+\ComfyUI\models/vae:Vae  存放路径
+\ComfyUI\output :  图片保存路径
+\ComfyUI\pysssss-workflows:  工作流保存位置
+
+
+==========================================================================
+==========================================================================
+
+
+大模型推荐：动漫ReVAnimated，万象熔炉 | Anything Ink等动漫卡通大模型
+触发词：guochao,Woodcut print
+
+一、文生图
+Checkpoint加载器
+CLIP文本编码器
+K采样器
+空Latent
+VAE解码
+保存图像
+二、图生图
+加载图像，VAE解码，Lora，ControlNet，
+
+Checkpoints，放置大模型
+controlnet，放置controlNet模型文件
+embeddings，放置嵌入词模型文件
+loras，放置LoRA模型文件
+mmdets，
+vae，放置VAE模型文件
+
+
+
+
+
+抠图
+git clone https://github.com/john-mnz/ComfyUI-Inspyrenet-Rembg.git
+==========================================================
+==========================================================
+抠图节点：WAS>BiRefNet>BRIA_RMBG
+was-node-suite-comfyui：
+https://github.com/WASasquatch/was-node-suite-comfyui
+ComfyUI-BiRefNet-ZHO:
+https://github.com/ZHO-ZHO-ZHO/ComfyUI-BiRefNet-ZHO
+ComfyUI-BRIA_AI-RMBG:
+https://github.com/ZHO-ZHO-ZHO/ComfyUI-BRIA_AI-RMBG
+
+T8自用包含315节点不冲突的Comfyui整合包（更新至20240904）
+
+
+让Comfy UI“无所不能”的秘密——自定义节点！ComfyUI零基础入门教程系列
+
+
+通用
+通用XL，汽车设计，服装，儿童摄影，玩具，影视(架空)，私人影像，室内设计XL
+漫画
+NJXL V5，NJXL V6，国漫，欧漫，2.5DXL，彩漫XL，彩漫2，魔幻2.2D
+风格
+温暖梦境，复古宝丽来，水彩画，彩色铅笔，油画，赛博朋克，韩式插画，50年代
+
+图生图
+骨骼捕捉，边缘检测，线稿提取，涂鸦上色，直线检测，轮廓识别，深度检测，语义分割，
+法线贴图，风格迁移，细节增强，局部修图，稳定像素，参考生图，光影控制，元素融合
+
+
+
+2D转真人，人像摄影
+艺术字生成，背景移除
+二维码生成，高清修复
+老照片修复，服装印花
+卡通头像生成，二次元转真人
+一键换背景\换脸，电商产品抠图
+
+may手稿转3d渲染
+may指定物体抠图(透明+自定义背景色)
+Rick一键人像摄影工作流
+保持人物脸型、头发及姿势
+二次元转真实+换脸+修脸+放大
+
+动态提示词插件sd-dynamic-prompts
+
+ComfyUI仓库地址
+https://gitee.com/AIGODLIKE/ComfyUI.git
+自定义节点配置地址
+https://gitee.com/custom_nodes_clone/ComfyUI-Manager/raw/main/node_db/new/custom-node-list.json
+
+
+https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes
+
+
+
+
+
+疯狂AI创绘整合包相关资源
+ComfyUI_FK_202408.zip
+
+
+C站模型Top100
+模型总站：C站Top100模型推荐Controlnet所有模型包含SDXL和Comfyui
+Faceid全套整合包模型
+comfyui一键转绘全节点
+安装包和工作流汇总
+comfyui工作流合集
+全网超强首个秋叶SDv4.9
+Flux+Diffree
+comfyui进阶教程-clip精准控图，流程自动化
+Comfyui基础节点详解——条件，CG迷李辰
+2024v4.8全量启动器3版本带手册
+夸克网盘：pan.quark.cn/s/ef98aeea9cce
+
+
+共享模型预设，Moldel Preset Manager
+现代主题，Lobe Theme
+系统信息查看，system Info
+背景移除，Remove background
+精准控制物体颜色，cut off
+关键词反推，Wd14 tagger
+图片浏览器，Image Browser
+C站模型下载，Civitai Helper
+提示词，Promp-all-in-one
+
+1、锁定宽高比aspect-ratio-helper
+2、Wildcards通配符
+3、prompt-all-in-one
+4、Inpaint anything
+5、参数预设config-presets
+6、无边框预览image-browsing
+7、Openpose编辑器
+8、颜色控制cutoff
+9、photopea-embed
+10、oldsix-prompt
+11、ADetailer
+12、Multidiffusion
+
+
+==========================================================================
+==========================================================================
+
 Japanese Style Realistic (JSR)，2.24G
 https://civitai.com/models/56287/japanese-style-realistic-jsr
 
@@ -8,6 +180,134 @@ https://civitai.com/models/733322/japanesewoman
 
 
 
+AIGC基础教程
+https://www.uisdc.com/?s=comfyui
+ComfyUI入门和进阶指南 《从基础教程到节点解析的保姆级教学》
+https://www.uisdc.com/zt/comfyui
+
+AI教程
+https://huaban.com/boards/92636845
+https://huaban.com/boards/87060148
+============================================
+
+sd-webui 整合包 + ControlnNet模型
+网盘：https://pan.quark.cn/s/2c832199b09b
+密码：bilibili@秋葉aaaki
+如无法下载，可前往B站搜索秋葉aaaki
+此整合包由这位UP位免费提供。
+——————————
+30个独家Lora模型及2W+提示词电子书：
+链接:https://pan.baidu.com/s/1VM1i7skTxo8y3m_5kbni6w?pwd=35di 
+提取码:35di
+——————————
+AIGC学习云文档：
+好机友AI绘画学习知识库
+链接：https://haojiyou.feishu.cn/wiki/JpHNwm0C6ivC00kjTWncmgT7nnb   
+密码：haojiyouai2004
+
+
+节点简介0902
+最新节点简介0817
+https://github.com/T8star1984/Comfyui-Aix-NodeMap
+目前更新到2024年9月2日，一共1378个节点，如果打不开GITHUB也可以进星球下载，更新日期为2024年9月2日
+另外可领取T8自用包含300节点不冲突的Comfyui整合包，定时更新
+以及最新的Comfyui节点简介表格，每日原创工作流等，定时更新！
+
+==========================================================================
+==========================================================================
+
+必装的神级插件Workspace Manager
+ComfyUI_IPAdapter_plus
+https://github.com/cubiq/ComfyUI_IPAdapter_plus
+
+ComfyUI API文档
+https://www.yunrobot.cn/showdoc/web/#/641840309/231516855
+ControlNet Preprocessors 
+
+
+Flux1-Dev-bnb-nf4 V2更新：
+https://hf-mirror.com/lllyasviel/flux1-dev-bnb-nf4/tree/main
+
+百度网盘地址：
+通过百度网盘分享的文件：Nf4 V2
+链接：https://pan.baidu.com/s/1-duo7LWcnPo_dfACVPmH7w 
+提取码：zutt 
+
+刘依依comfyui
+
+==========================================================================
+==========================================================================
+
+【AI大模型】Flux.1全功能工作流：大模型、Lora、ControlNet工作流详解
+1、Flux大模型的介绍 Flux dev 、Fluxdev-fl8、 NF4
+2、Flux lora
+3、Flux ControlNet 支持Canny、Depth、HED
+更快更节省时间的学习ComfyUI：https://t.zsxq.com/qkltK
+
+资源地址：
+大模型：
+https://huggingface.co/black-forest-labs/FLUX.1-dev/tree/main
+fp8：
+Comfy-Org--flux1-dev：
+https://huggingface.co/Comfy-Org/flux1-dev/tree/main
+
+Kijai/flux-fp8 ：
+https://huggingface.co/Kijai/flux-fp8/tree/main
+
+NF4模型地址：https://huggingface.co/lllyasviel/flux1-dev-bnb-nf4/tree/main
+NF4插件地址：https://github.com/comfyanonymous/ComfyUI_bitsandbytes_NF4
+
+Xlabs-ControlNet模型地址：https://huggingface.co/XLabs-AI/flux-controlnet-collections
+Xlabs-ControlNet插件地址：https://github.com/XLabs-AI/x-flux-comfyui
+Lora模型下载地址：https://huggingface.co/XLabs-AI/flux-lora-collectio
+
+
+
+KOLORS 支持的万能ControlNet ProMAX  ComfyUI工作流
+模型地址：https://huggingface.co/xinsir
+更多comfyUI进阶干货：https://t.zsxq.com/qkltK
+
+
+AnimateDiff插件地址：https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved
+视频助手：https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite
+效率節點插件：https://github.com/jags111/efficiency-nodes-comfyui
+视频助手：https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite
+FIZZ项目：https://github.com/FizzleDorf/ComfyUI_FizzNodes
+高级ControlNet：https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet
+插帧项目：https://github.com/fannovel16/ComfyUI-Frame-interpolation
+
+ComfyUI插件：efficiency-nodes-comfyui节点
+https://www.163.com/dy/article/J8THP4KG05568LMV.html
+
+
+
+从零开始：构建你的首个ComfyUI工作流
+https://blog.csdn.net/2401_84830464/article/details/138900501
+AI绘画利器：Stable-Diffusion-ComfyUI保姆级教程
+http://www.aigcdaily.cn/news/a24rl2oi2c3uji7/
+
+
+C站：https://civitai.com/
+liblib：https://www.liblib.art/
+
+4. 汉化
+整合包可以直接点击右边设置小按钮，并对语言设为中文即可
+非整合包需自行下载汉化插件，通过插件管理器搜索AIGODLIKE-ComfyUI-Translation安装即可，
+或类似下载插件管理器的方式在custom_nodes下
+git clone https://github.com/AIGODLIKE/AIGODLIKE-ComfyUI-Translation.git后重启ComfyUI
+
+5. 学习参考
+ComfyUI由于工作流的导入导出的便利，使得工作流可以互相分享学习，甚至直接使用。目前有很多工作流分享的站点，
+可以通过导入其他人的工作流进行学习和实践，对自身学习会非常有帮助
+ComfyUI官方示例：https://comfyanonymous.github.io/ComfyUI_examples/
+基础工作流示范：https://github.com/wyrde/wyrde-comfyui-workflows
+comfyworkflows：https://comfyworkflows.com/ 
+esheep（国内站点，访问快）：https://www.esheep.com/
+
+
+
+==========================================================================
+==========================================================================
 
 主体描述
 (一句话告诉AI你要描述的画面,修饰词+主体+场景+动作)
@@ -31,4 +331,14 @@ https://civitai.com/models/733322/japanesewoman
 (再加上3D软件+渲染器+材质+光照+逼真的渲染风格)
 
 
-====================================================
+
+
+
+==========================================================================
+==========================================================================
+==========================================================================
+==========================================================================
+
+
+
+
