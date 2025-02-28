@@ -1,0 +1,193 @@
+
+
+
+
+处理器：英特尔 Core i9-10900 @ 2.80GHz，￥2213
+内存：32 GB(海盗船 DDR4-2133 3200MHz 16GB x2)，￥558
+
+显卡：AMD Radeon RX 5500 XT(8 GB/华硕)，￥1200
+
+主板：Acidanthera Mac-AA95B1DDAB278B95(LPC Controller Z490芯片组)，￥
+主硬盘：西数 WDC WDS500G2B0C-00PXH0(500 GB/国态硬盘)，￥528
+
+网卡：博通 Broadcom 802.11ac Network Adapter/苹果，￥110
+声卡：瑞昱 ALC887 @ 英特尔 High Definition Audio 控制器，￥20
+电源500w
+机箱
+
+显示器：冠捷 AOC3402 U34G2G4R3(34英寸)，￥
+
+优先级为：固态硬盘/内存>显卡>主板/CPU>电源>机箱
+
+
+
+  [   Notion   ]
+secret_sLP5E4Pcn9bOxstweZ7KTEjXymmuP0fTvbewhNvtEmG
+
+jamph619，jamph137，jamph604
+
+jamph131411@gmail.com
+jamph619675941@gmail.com
+826972411@qq.com，893050765@qq.com
+fjf131410@163.com
+
+
+  
+
+============================================================================
+============================================================================
+
+处理器：英特尔 Core i3-9100F @ 3.60GHz 四核
+内存：16 GB(金士顿 DDR4 2666MHz 16GB )
+显卡：NVIDIA GeForce GT 1030(2 GB/七彩虹)
+
+主板：微星 H310M PRO-VD PLUS (MS-7C13)(300 Series 芯片组 Family-A2CA)
+显示器：HAN HAN2400 HD240V(24 英寸)
+主硬盘：东芝 -TR200(240 GB/固态硬盘)
+网卡：瑞昱 RTL8168/8111/8112 Gigabit Ethernet Controller/微星
+声卡：瑞昱 ALC887 @ 英特尔 High Definition Audio 控制器
+
+
+七彩虹 NVIDIA GeForce 40系
+NVIDIA GeForce RTX 4070 12G，7700xt，功耗250w显卡，超过可能会出现断电保护
+镀金属外壳+支架+oculink板
+显卡外置拓展坞，接上OCuLink连接线
+
+============================================================================
+============================================================================
+  
+LED接线夹
+电子元件，FUSES玻璃保险管，熔断器
+金属膜电阻，
+
+排插一个，
+阵列盒，￥600
+希捷硬盘20T，￥1600*2
+3800
+
+18T，1300
+
+硬件配置(如显卡16G、显存32G、电源等)
+大模型：32G，RTX 4090
+中等型：10G，
+小模型：8G，
+
+4080显卡需要多少w电源？
+950W到1100W左右
+
+英伟达RTX4080 显卡
+RX7900XTX
+RX6950XT
+Radeon RX 6750 GRE 12GB
+
+英伟达GTX1080ti 11G定制涡轮公版  ￥1300
+英伟达GTX2080 ti
+英伟达GTX3060 ti
+英伟达GTX3080 12G
+
+
+
+============================================================================
+============================================================================
+
+
+秋叶 Stable Diffusion 最新整合包 V4.8.7
+链接：https://pan.baidu.com/s/1nPBLLfHeJlwZzPwwit_I_g?pwd=12v9
+提取码：12v9
+
+模型包
+链接：https://pan.baidu.com/s/1W-UIuOww38HrIjNWqPh0Rw
+提取码：aaki
+
+
+
+一键启动多个文件夹
+V2ray pro开源地址:
+https://github.com/lowercase78/V2RavN-PRO/releases/tag/V2RayN-PROV1.0
+https://github.com/lowercase78/V2RayN-PRO/releases/tag/V2RayN-PROV1.0
+
+
+
+
+comfyui保姆级roop换脸工作流一步一步搭建的详解教程
+插件管理工具（必装，可以自动查找缺失插件）
+https://github.com/ltdrdata/ComfyUI-Manager
+汉化插件：
+https://github.com/AIGODLIKE/AIGODLIKE-COMFYUI-TRANSLATION
+相关地址插件：
+https://civitai.com/models/24690/comfyui-facerestore-node
+https://github.com/ssitu/ComfyUI_UltimateSDUpscale
+https://github.com/ssitu/ComfyUI_roop
+https://github.com/SeargeDP/SeargeSDXL
+https://github.com/bradsec/ComfyUI_ResolutionSelector
+
+https://github.com/WASasquatch/was-node-suite-comfyui
+https://github.com/ltdrdata/ComfyUI-Impact-Pack
+https://github.com/biegert/ComfyUI-CLIPSeg
+https://github.com/pythongosssss/ComfyUI-Custom-Scripts
+
+Comfyui指定条件采样区域，提高AI可控性
+插件管理工具（必装，可以自动查找缺失插件）
+https://github.com/ltdrdata/ComfyUI-Manager
+此教程涉及插件：
+https://github.com/Davemane42/ComfyUI_Dave_CustomNode
+
+
+======================拆、组、调、装饰
+
+给美女换衣服！做完这个 AI 教程被老婆暴打了一顿
+https://www.freedidi.com/9213.html
+[SDXL] RongHua | 容华 | 国风大模型 推荐NO.1
+https://www.freedidi.com/10494.html
+清晨的生活气息，逼真的人物风格
+https://www.avifp.com/25.html
+EpiCRealism 下载量高达27万的冠军级真人模型，推荐NO.3
+https://www.freedidi.com/10515.html
+DarkSushi：模型非常适合绘制复杂场景，模型推荐NO.5
+https://www.freedidi.com/10505.html
+
+
+
+
+
+============================================================================
+============================================================================
+  
+
+节点
+https://raw.githubusercontent.com/freefq/free/master/v2
+
+5ea5e95c-0b4c-4b53-ad63-28697cd4db96
+https://hiddify0422.pages.dev/5ea5e95c-0b4c-4b53-ad63-28697cd4db96
+
+hiddify0410.pages.dev
+
+hiddify240411
+f8c8d7ab-c72c-43cf-9cf3-d604459b7ed3240612
+
+
+warpgo-profile-generator 02
+jamph0612
+uuid：2ff3d229-ec00-474b-b92c-14358f5356a6
+==============================================
+replist-xray240612项目
+
+https://21adb3f7-9157-4717-b570-bcca16f16d5e-00-3c090amn2braq.sisko.replit.dev/
+21adb3f7-9157-4717-b570-bcca16f16d5e-00-3c090amn2braq.sisko.replit.dev
+左侧“main.sh”去掉“https://”和尾部“/”替换第8行“test”，再"Run"
+==============================================
+
+The Repl is currently not running. Deploy this Repl to keep it running externally
+Repl当前未运行。部署此Repl以保持其在外部运行
+
+https://21adb3f7-9157-4717-b570-bcca16f16d5e-00-3c090amn2braq.sisko.replit.dev/bc1ff4ff-0ffd-406c-b709-db19024c104a.html
+
+
+
+
+
+
+============================================================================
+============================================================================
+============================================================================
+============================================================================
