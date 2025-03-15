@@ -1,0 +1,25 @@
+@echo off
+title 添加文件夹和分隔符到右键菜单
+echo 正在添加文件夹和分隔符到右键菜单...
+
+:: 设置主菜单名称和图标
+set "menu_name=注册表名test"
+set "menu_display_name=右键菜单名open"
+set "menu_icon=%SystemRoot%\System32\shell32.dll,4"
+set "menu_Sub={sub-001};{sub-002};{sub-003};{sub-004};"
+
+:: 设置子目录 command 的路径
+set "folder_path=D:\Downloads\tessa826"
+
+:: 添加主菜单项
+reg add "HKEY_CLASSES_ROOT\Directory\Background\shell\%menu_name%" /v "MUIVerb" /d "%menu_display_name%" /f
+reg add "HKEY_CLASSES_ROOT\Directory\Background\shell\%menu_name%" /v "Icon" /d "%menu_icon%" /f
+reg add "HKEY_CLASSES_ROOT\Directory\Background\shell\%menu_name%" /v "SubCommands" /d "%menu_Sub%" /f
+
+:: 添加子目录 command
+reg add "HKEY_CLASSES_ROOT\Directory\Background\shell\%menu_name%\command" /ve /d "explorer \"%folder_path%\"" /f
+
+
+
+echo 添加完成！右键点击桌面或文件夹空白处即可看到新菜单项和分隔符。
+pause
