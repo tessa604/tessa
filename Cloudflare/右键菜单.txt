@@ -45,16 +45,31 @@ SUBMENU57432559
 二级目录
 计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell
 
-Submenu
+【添加文件夹】，Submenu
+
+{名称Sub-001}
 数值名称：MUIVerb
-数值数据：0莫总-保体高乐 汇总
+数值数据：tessa826
 数值名称：Icon
 数值数据：%SystemRoot%\System32\shell32.dll,4
-
 command
 数值名称：默认
-数值数据：explorer /root,"E:\E@Backups\0xxxxx"
-explorer /root,"D:\Downloads\tessa826"
+数值数据：explorer /root,"D:\Downloads\tessa826"
+explorer /root,"xxxxxxx"
+
+
+==============================================
+【添加文件】
+\shell
+{SUBMENU57432559-4064913}
+Icon，D:\Program Files\nthLink\nthLink.Wpf.exe
+MUIVerb，nthLink.Wpf
+
+\command
+数值名称：默认
+数值数据："D:\Program Files\nthLink\nthLink.Wpf.exe"
+
+==============================================
 
 
 
