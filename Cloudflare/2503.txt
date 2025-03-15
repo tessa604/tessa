@@ -1,0 +1,161 @@
+
+
+
+ContextMenuManager
+纯粹的Windows右键菜单管理程序
+https://github.com/BluePointLilac/ContextMenuManager
+
+
+
+Right Click Enhancer：一个免费工具，可以轻松添加自定义右键菜单项。
+Context Menu Manager：一个开源工具，专门用于管理右键菜单。
+windows自定义右键菜单
+
+
+======================================================
+======================================================
+
+
+打开注册表编辑器：
+按 Win + R 打开运行窗口，输入 regedit，然后按回车。
+导航到右键菜单的注册表位置：
+如果你想将程序或脚本添加到 文件的右键菜单，导航到：
+HKEY_CLASSES_ROOT\*\shell
+如果你想将程序或脚本添加到 文件夹的右键菜单，导航到：
+HKEY_CLASSES_ROOT\Directory\shell
+如果你想将程序或脚本添加到 桌面或文件夹背景的右键菜单，导航到：
+HKEY_CLASSES_ROOT\Directory\Background\shell
+创建一个新的项：
+右键点击 shell，选择 新建 -> 项，并命名为你想要的右键菜单名称（例如 Run My Script）。
+设置菜单项的命令：
+在刚刚创建的项（例如 Run My Script）下，右键点击，选择 新建 -> 项，命名为 command。
+选中 command，在右侧双击 (默认)，将其值设置为你想要运行的程序或脚本的完整路径。例如：
+"C:\Path\To\YourScript.bat"
+或者：
+"C:\Path\To\YourProgram.exe"
+
+（可选）添加图标：
+如果你想为右键菜单项添加图标，可以在刚刚创建的项（例如 Run My Script）下，右键点击，选择 新建 -> 字符串值，命名为 Icon。
+双击 Icon，将其值设置为图标文件的路径。例如：
+"C:\Path\To\YourIcon.ico"
+完成：
+关闭注册表编辑器，右键点击文件、文件夹或桌面空白处，即可看到新添加的菜单项。
+
+
+===============================================
+===============================================
+
+方法 2：使用批处理脚本自动添加
+以下是一个批处理脚本，可以自动将程序或脚本添加到右键菜单中：
+添加到文件的右键菜单：
+
+@echo off
+title 添加程序到文件右键菜单
+echo 正在添加程序到文件右键菜单...
+
+:: 设置菜单名称和程序路径
+set "menu_name=Run My Script"
+set "program_path=C:\Path\To\YourScript.bat"
+
+:: 添加注册表项
+reg add "HKEY_CLASSES_ROOT\*\shell\%menu_name%" /ve /d "Run My Script" /f
+reg add "HKEY_CLASSES_ROOT\*\shell\%menu_name%\command" /ve /d "\"%program_path%\"" /f
+
+echo 添加完成！右键点击文件即可看到新菜单项。
+pause
+
+
+===============================================
+===============================================
+
+添加到文件夹的右键菜单：
+
+@echo off
+title 添加程序到文件夹右键菜单
+echo 正在添加程序到文件夹右键菜单...
+
+:: 设置菜单名称和程序路径
+set "menu_name=Run My Script"
+set "program_path=C:\Path\To\YourScript.bat"
+
+:: 添加注册表项
+reg add "HKEY_CLASSES_ROOT\Directory\shell\%menu_name%" /ve /d "Run My Script" /f
+reg add "HKEY_CLASSES_ROOT\Directory\shell\%menu_name%\command" /ve /d "\"%program_path%\"" /f
+
+echo 添加完成！右键点击文件夹即可看到新菜单项。
+pause
+
+===============================================
+===============================================
+
+添加到桌面或文件夹背景的右键菜单：
+
+@echo off
+title 添加程序到桌面右键菜单
+echo 正在添加程序到桌面右键菜单...
+
+:: 设置菜单名称和程序路径
+set "menu_name=Run My Script"
+set "program_path=C:\Path\To\YourScript.bat"
+
+:: 添加注册表项
+reg add "HKEY_CLASSES_ROOT\Directory\Background\shell\%menu_name%" /ve /d "Run My Script" /f
+reg add "HKEY_CLASSES_ROOT\Directory\Background\shell\%menu_name%\command" /ve /d "\"%program_path%\"" /f
+
+echo 添加完成！右键点击桌面或文件夹空白处即可看到新菜单项。
+pause
+
+
+
+
+
+
+======================================================
+======================================================
+
+CMD添加“任务计划程序”命令
+schtasks /create /tn
+
+schtasks /create /tn <任务名称> /tr "运行的程序或命令" /sc <计划类型> [/st <开始时间>] [/sd <开始日期>] [/ed <结束日期>] [/f]
+
+/tn <任务名称>：任务的名称（唯一标识）。
+/tr <运行的程序或命令>：要运行的程序或命令。
+/sc <计划类型>：计划类型，例如daily（每天）、weekly（每周）、monthly（每月）等。
+/st <开始时间>：任务开始的时间，格式为HH:MM（24小时制）。
+/sd <开始日期>：任务开始的日期，格式为MM/DD/YYYY。
+/ed <结束日期>：任务结束的日期，格式为MM/DD/YYYY。
+/f：强制创建任务，如果任务已存在则覆盖。
+
+========================
+========================
+案例：
+schtasks /create /tn MyDailyTask /tr "python C:\scripts\my_script.py" /sc daily /st 12:00 /f
+
+schtasks /create /tn PS02 /tr "E:\AE\Adobe Photoshop 2020\Photoshop.exe" /sc daily /st 08:06 /sd 2025/03/11  /f
+
+
+如何定义多个"任务计划程序"触发器
+Microsoft：office,OneCore,VisualStudio,windows,XblGameSave
+MySQL：Installer
+
+
+
+C:\Windows\SysWOW64\
+注册表编辑器程序，regedit.exe
+
+C:\Windows\SysWOW64\rundll32.exe
+电脑睡眠程序或脚本命令：rundll32.exe
+添加参数：powrprof.dll,SetSuspendState 0,1,0
+SetSuspendState 是Windows的睡眠函数，0,1,0 表示进入睡眠状态。
+如果你希望电脑进入休眠状态（而不是睡眠），可以将参数改为 1,1,0。
+
+使用呼醒定时器
+在此时间后休眠
+在此时间后睡眠
+
+文件夹路径 ＝ “"C:\Program Files"”
+D:\BaiduNetdiskDownload\EditPlus3\x64\EditPlus.exe
+
+======================================================
+======================================================
+
