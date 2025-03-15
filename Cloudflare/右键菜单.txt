@@ -5,6 +5,12 @@
 Right Click Shortcuts Creator
 添加新文件夹和程序快捷方式到右键菜单以便于您快速访问常用的文件夹和程序
 
+ContextMenuManager
+windows右键管理
+
+
+
+
 文件夹图标
 程序或脚本添加到 文件的右键菜单，导航到：
 HKEY_CLASSES_ROOT\*\shell
@@ -16,6 +22,8 @@ HKEY_CLASSES_ROOT\Directory\Background\shell
 
   
 右键点击桌面或文件夹空白处即可看到新菜单项和二级目录。
+
+
 
 
 ==============================================
