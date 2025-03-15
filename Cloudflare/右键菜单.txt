@@ -1,0 +1,84 @@
+
+
+
+
+Right Click Shortcuts Creator
+添加新文件夹和程序快捷方式到右键菜单以便于您快速访问常用的文件夹和程序
+
+文件夹图标
+程序或脚本添加到 文件的右键菜单，导航到：
+HKEY_CLASSES_ROOT\*\shell
+程序或脚本添加到 文件夹的右键菜单，导航到：
+HKEY_CLASSES_ROOT\Directory\shell
+程序或脚本添加到 桌面或文件夹背景的右键菜单，导航到：
+HKEY_CLASSES_ROOT\Directory\Background\shell
+
+
+  
+右键点击桌面或文件夹空白处即可看到新菜单项和二级目录。
+
+
+==============================================
+==============================================
+
+%SystemRoot%\System32\SHELL32.dll
+Add Custom Command
+
+主目录
+计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shell\
+
+SUBMENU57432559
+数值名称：MUIVerb
+数值数据：tesssa
+
+数值名称：Icon
+数值名称：%SystemRoot%\System32\shell32.dll,46
+
+数值名称：SubCommands
+数值数据：
+{SUBMENU57432559-7597053};{SUBMENU57432559-43477555};{SUBMENU57432559-79358056};{SUBMENU57432559-62996028};
+
+
+==============================================
+==============================================
+
+二级目录
+计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell
+
+Submenu
+数值名称：MUIVerb
+数值数据：0莫总-保体高乐 汇总
+数值名称：Icon
+数值数据：%SystemRoot%\System32\shell32.dll,4
+
+command
+数值名称：默认
+数值数据：explorer /root,"E:\E@Backups\0xxxxx"
+explorer /root,"D:\Downloads\tessa826"
+
+
+
+Right Click Shortcuts Creator
+
+Directory\Background
+外观
+Hidden：False
+Icon：%SystemRoot%\System32\shell32.dll,46
+Name：Tessa
+
+行为
+Arguments
+Location：F:\BaiduNetdiskDownload\Vpn02
+外观
+Icon：%SystemRoot%\System32\shell32.dll,4
+Name：VPN02
+Separator：False
+
+
+==============================================
+==============================================
+  
+  
+
+=================
+=================
