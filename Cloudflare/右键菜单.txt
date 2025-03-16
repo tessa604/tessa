@@ -11,6 +11,9 @@ ContextMenuManager
 windows右键管理
 https://github.com/BluePointLilac/ContextMenuManager
 
+
+
+
 ==============================================
 ==============================================
 
@@ -36,7 +39,11 @@ HKEY_CLASSES_ROOT\Directory\Background\shell
 %SystemRoot%\System32\SHELL32.dll
 Add Custom Command
 
-主目录
+
+一、文件夹右键打开注册表路径
+计算机\HKEY_CLASSES_ROOT\Directory\shell
+
+二、背景右键注册表目录
 计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shell\
 
 SUBMENU57432559
