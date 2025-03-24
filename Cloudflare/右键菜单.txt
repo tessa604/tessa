@@ -132,7 +132,52 @@ command
 explorer /root,"xxxxx"
 
 
-  
+
 
 ==============================================
 ==============================================
+
+1.我的电脑/此电脑
+HKEY_CLASSES_ROOT\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell
+2.驱动器
+HKEY_CLASSES_ROOT\Drive\shell
+若需针对特定驱动器类型（如U盘）：
+HKEY_CLASSES_ROOT\Drive\shellex
+3.普通文件夹
+HKEY_CLASSES_ROOT\Directory\shell
+背景菜单‌（文件夹空白处右键）：
+HKEY_CLASSES_ROOT\Directory\Background\shell
+
+4.文件（所有文件类型）
+计算机\HKEY_CLASSES_ROOT\*\Shell
+特定文件类型（如.exe文件）
+HKEY_CLASSES_ROOT\exefile\shell
+其他文件类型‌（如.txt、.jpg）：
+根据文件扩展名查找对应键值，例如：
+.txt 文件：HKEY_CLASSES_ROOT\txtfile\shell
+.jpg 文件：HKEY_CLASSES_ROOT\jpegfile\shell
+
+5.库（如文档库、图片库）
+HKEY_CLASSES_ROOT\LibraryFolder\shell
+6.快速访问（资源管理器左侧导航栏）
+HKEY_CLASSES_ROOT\CLSID\{679F85CB-0220-4080-B29B-5540CC05AAB6}\Shell
+
+7.发送到菜单
+HKEY_CLASSES_ROOT\AllFilesystemObjects\shell\SendTo
+
+
+
+快捷键
+使记事本打开(&F)
+设置默认值（显示名称）为 快速格式化(&F)（&F 定义快捷键为 Alt+F）。
+
+
+
+
+==============================================
+==============================================
+
+
+
+
+
