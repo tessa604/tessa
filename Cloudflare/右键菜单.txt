@@ -36,6 +36,12 @@ HKEY_CLASSES_ROOT\Directory\Background\shell
 
 
 
+【02】去除桌面图标快捷方式箭头
+打开注册表编辑器后定位 HKEY_CLASSES_ROOT\lnkfile ；
+删除 lnkfile 子项中的 IsShortcut 字符串值项
+（IsShortcut 项是用来控制是否显示普通应用程序和数据文件快捷方式中小箭头）；
+
+
 
 ==============================================
 ==============================================
