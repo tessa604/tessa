@@ -1,0 +1,209 @@
+
+
+设置文件属性为隐藏：
+右键点击文件 → 属性 → 勾选"隐藏"
+或在命令提示符中执行：attrib +h Desktop.ini
+
+
+中文内容示例
+[.ShellClassInfo]
+LocalizedResourceName=我的自定义文件夹
+InfoTip=这是一个包含中文的文件夹描述
+IconResource=C:\图标路径\图标.ico
+=============================================
+=============================================
+
+基本示例
+﻿[.ShellClassInfo]
+; 上面的﻿是UTF-16 LE BOM不可见字符，保存时选择UTF-16会自动添加
+IconResource=C:\Windows\System32\shell32.dll,3
+IconFile=C:\path\to\icon.ico
+IconIndex=0
+
+
+自定义文件夹图标
+[.ShellClassInfo]
+IconResource=C:\path\to\your\icon.ico,0
+
+
+自定义文件夹提示信息
+[.ShellClassInfo]
+InfoTip=这是自定义文件夹的提示信息
+
+
+更改文件夹显示名称
+[.ShellClassInfo]
+LocalizedResourceName=我的自定义文件夹名
+
+
+=============================================
+=============================================
+
+ConfirmFileOp	将此条目设置为 0，可避免在删除或移动文件夹时出现“正在删除系统文件夹”的警告。
+NoSharing	在 Windows Vista 或更高版本下不受支持。 将此条目设为 1 可防止共享文件夹。
+
+IconFile	如果要为文件夹指定自定义图标，可将此条目设置为图标的文件名。 首选 .ico 文件扩展名，但也可以指定 .bmp 文件或包含图标的 .exe 和 .dll 文件。 如果使用的相对路径，则通过网络查看文件夹的用户可以看到该图标。 还必须设置 IconIndex 条目。
+
+IconIndex	设置此条目可指定自定义图标的索引。 如果分配给 IconFile 的文件只包含一个图标，请将 IconIndex 设置为 0。
+
+InfoTip	将此条目设置为信息文本字符串。 当光标悬停在文件夹上时，它会以信息提示的形式显示。 如果用户单击文件夹，信息文本就会显示在文件夹信息块中，位于标准信息下方。
+
+
+
+
+以下 desktop.ini 文件用于自定义 Music 文件夹
+[.ShellClassInfo]
+ConfirmFileOp=0
+NoSharing=1
+IconFile=Folder.ico
+IconIndex=0
+InfoTip=Some sensible information.
+
+=============================================
+=============================================
+
+要使更改生效，可能需要：
+刷新文件夹（F5）
+重启资源管理器
+执行命令：attrib +s 文件夹路径
+
+
+
+
+LocalizedResourceName=自定义文件夹名
+
+python create_desktop_ini.py 
+F:\F@VPN\zzz\three
+F:\F@VPN\zzz\icon\Folder.ico
+自定义文件
+
+
+
+=============================================
+=============================================
+=============================================
+=============================================
+
+
+自动化创建 desktop.ini-Py脚本
+
+import os
+import ctypes
+import sys
+
+
+
+def create_desktop_ini(folder_path, icon_file=None, info_tip=None):
+    """
+    在指定文件夹中创建 desktop.ini 文件
+    :param folder_path: 目标文件夹路径
+    :param icon_file: 自定义图标文件路径 (可选)
+    :param info_tip: 自定义文件夹提示信息 (可选)
+    """
+    desktop_ini_path = os.path.join(folder_path, 'desktop.ini')
+
+    
+    # 准备 desktop.ini 内容
+    content = ['[.ShellClassInfo]']
+    
+    if icon_file:
+        content.append(f'IconResource={icon_file},0')
+    if info_tip:
+        content.append(f'InfoTip={info_tip}')
+    
+    # 添加其他常见配置
+    content.append('ConfirmFileOp=0')
+    content.append('NoSharing=1')
+    
+    # 写入文件
+    try:
+        with open(desktop_ini_path, 'w', encoding='utf-16') as f:
+            f.write('\n'.join(content))
+        print(f"成功创建 desktop.ini 文件于: {desktop_ini_path}")
+    except Exception as e:
+        print(f"创建 desktop.ini 失败: {e}")
+        return False
+    
+    return True
+
+def set_system_attribute(folder_path):
+    """
+    设置文件夹和 desktop.ini 的系统属性
+    :param folder_path: 目标文件夹路径
+    """
+    try:
+        # 设置文件夹为系统文件夹
+        os.system(f'attrib +s "{folder_path}"')
+        
+        # 设置 desktop.ini 为系统隐藏文件
+        desktop_ini_path = os.path.join(folder_path, 'desktop.ini')
+        if os.path.exists(desktop_ini_path):
+            os.system(f'attrib +s +h "{desktop_ini_path}"')
+        
+        print("成功设置系统属性")
+        return True
+    except Exception as e:
+        print(f"设置系统属性失败: {e}")
+        return False
+
+def is_admin():
+    """检查是否以管理员权限运行"""
+    try:
+        return ctypes.windll.shell32.IsUserAnAdmin()
+    except:
+        return False
+
+def main():
+    # 获取用户输入的文件夹路径
+    folder_path = input("请输入目标文件夹路径: ").strip('"')
+    
+    # 验证路径是否存在
+    if not os.path.isdir(folder_path):
+        print("错误: 指定的路径不存在或不是一个文件夹")
+        return
+    
+    # 可选: 获取自定义图标和提示信息
+    icon_file = input("请输入图标文件路径 (可选，直接回车跳过): ").strip('"')
+    info_tip = input("请输入文件夹提示信息 (可选，直接回车跳过): ")
+    
+    # 创建 desktop.ini
+    if not create_desktop_ini(folder_path, icon_file or None, info_tip or None):
+        return
+    
+    # 设置系统属性
+    if not set_system_attribute(folder_path):
+        print("注意: 某些操作可能需要管理员权限")
+    
+    print("操作完成!")
+
+if __name__ == "__main__":
+    # 检查管理员权限
+    if not is_admin():
+        print("警告: 某些操作可能需要管理员权限才能完全生效")
+        print("建议以管理员身份重新运行此脚本")
+    
+    main()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
