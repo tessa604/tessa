@@ -4,7 +4,6 @@
 
 
 
-
 Win10 资源管理器导航栏设置：系统文件夹的显示和隐藏OneDrive，及自定义
 https://www.cnblogs.com/mq0036/p/17345787.html
 
@@ -147,6 +146,51 @@ HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\TypedPaths
 {0E5AAE11-A475-4c5b-AB00-C66DE400274E}
 
 计算机\HKEY_CURRENT_USER\Software\Classes\CLSID
+
+
+
+=================================================
+=================================================
+
+计算机\HKEY_CLASSES_ROOT\CLSID\{0b9bbc5f-9366-4138-9299-03af3a9bb269}
+{305ca226-d286-468e-b848-2b2e8e697b74} 2，REG_DWORD(32位)，"ffffffff"
+DescriptionID，REG_DWORD(32位)，"3"
+InfoTip，REG_SZ，"G:\2345Downloads"
+OldDescriptionID，REG_DWORD(32位)，ffffffff
+performer，REG_SZ，This PC Tweaker
+
+1.新建项，DefaultIcon
+  右侧默认，REG_SZ，%windir%\system32\shell32.dll,15
+  OldIcon，REG_SZ，%SystemRoot%\System32\shell32.dll,3
+2.新建项，InProcServer32，
+  右侧默认，REG_SZ，shdocvw.dll
+   ThreadingModel，REG_SZ，Both
+3.新建项，Instance，右侧"CLSID"，{0afaced1-e828-11d1-9187-b532f1e9575d}
+  新建项，InitPropertyBag
+  右侧，Attributes，REG_DWORD(32位)，15
+           Target，REG_EXPAND_SZ，"G:\2345Downloads"
+4.新建项，ShellEx，
+新建项，PropertySheetHandlers
+   1.新建项，tab 1 general，{21b22460-3aea-1069-a2dc-08002b30309d}
+   2.新建项，tab 2 customize，{ef43ecfe-2ab9-4632-bf21-58909dd177f0}
+   3.新建项，tab 3 sharing，{f81e9010-6ea4-11ce-a7ff-00aa003ca9f6}
+   4.新建项，tab 4 security，{1f2e5c40-9550-11ce-99d2-00aa006e086c}
+5.新建项，ShellFolder，
+Attributes，REG_DWORD(32位)，f080004d
+HideAsDeletePerUser，REG_SZ，
+WantsFORPARSING，REG_SZ，
+
+
+
+
+计算机\HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{0b9bbc5f-9366-4138-9299-03af3a9bb269}
+
+
+=================================================
+=================================================
+
+
+
 
 
 
