@@ -38,12 +38,18 @@ Node
 打开文件夹的路径，必填explorer.exe或explorer /root,
 ===============
 <br>
+
 \Command
+
 /ve /t REG_SZ 
+
 /d explorer /root,"F:\!F@Backups\F@莫总-备份2\F@AI23" /f
+
 /d explorer.exe "D:\WorkProjects" /f
 
 
+
+<br>
 <br>
 
 
