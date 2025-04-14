@@ -55,7 +55,7 @@ Node
 <br>
 
 
-# Last Updated Time
+Last Updated Time
 ![](time.md)
 
 
