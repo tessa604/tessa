@@ -32,6 +32,21 @@ Node
 
 科学上网-翻墙、免费翻墙、免费科学上网、7 软件、8 VPN、glassesvip
 
+
+<br>
+
+打开文件夹的路径，必填explorer.exe或explorer /root,
+===============
+<br>
+\Command
+/ve /t REG_SZ 
+/d explorer /root,"F:\!F@Backups\F@莫总-备份2\F@AI23" /f
+/d explorer.exe "D:\WorkProjects" /f
+
+
+<br>
+
+
 北京时间2025年02月24日11点30分更新。
 
 
