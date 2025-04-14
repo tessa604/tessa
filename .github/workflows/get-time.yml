@@ -1,0 +1,40 @@
+name: Get Current Time
+
+on:
+  workflow_dispatch:  # 允许手动触发
+  schedule:
+    - cron: '0 * * * *'  # 每小时运行一次
+  push:
+    branches: [ main ]
+
+jobs:
+  get-time:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Get current time
+      id: time
+      run: |
+        echo "UTC_TIME=$(date -u +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
+        echo "LOCAL_TIME=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
+        echo "TIMESTAMP=$(date +%s)" >> $GITHUB_OUTPUT
+        
+    - name: Display times
+      run: |
+        echo "UTC Time: ${{ steps.time.outputs.UTC_TIME }}"
+        echo "Local Time: ${{ steps.time.outputs.LOCAL_TIME }}"
+        echo "Unix Timestamp: ${{ steps.time.outputs.TIMESTAMP }}"
+        
+    - name: Create file with timestamp
+      run: |
+        echo "Build time: ${{ steps.time.outputs.UTC_TIME }}" > build-time.txt
+        cat build-time.txt
+        
+    - name: Upload artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: time-info
+        path: build-time.txt
