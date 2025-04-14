@@ -55,8 +55,8 @@ Node
 <br>
 
 
-Last Updated Time
-![](README.md)
+# Last Updated Time
+![](time.md)
 
 
 <br>
