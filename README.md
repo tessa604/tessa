@@ -43,7 +43,7 @@ Node
 
 /ve /t REG_SZ 
 
-/d explorer /root,"F:\!F@Backups\F@莫总-备份2\F@AI23" /f
+/d explorer /root,"F:\Backups\one\AI23" /f
 
 /d explorer.exe "D:\WorkProjects" /f
 
