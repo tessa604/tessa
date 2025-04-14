@@ -35,9 +35,11 @@ Node
 
 <br>
 
-打开文件夹的路径，必填explorer.exe或explorer /root,
+打开文件夹的路径，注册表
 ===============
 <br>
+
+必填explorer.exe或explorer /root,
 
 \Command
 
