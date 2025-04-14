@@ -55,7 +55,8 @@ Node
 <br>
 
 
-最后更新时间：<!-- LAST_UPDATE --><!-- /LAST_UPDATE -->
+# Last Updated Time
+![](time.md)
 
 
 <br>
