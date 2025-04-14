@@ -1,8 +1,24 @@
-- name: Update README
-  run: |
-    # 替换 README 中的时间标记
-    sed -i "s/<!-- LAST_UPDATE -->.*<!-- \/LAST_UPDATE -->/<!-- LAST_UPDATE -->$(date -u +'%Y-%m-%d %H:%M:%S')<!-- \/LAST_UPDATE -->/g" README.md
-- name: Commit changes
-  uses: stefanzweifel/git-auto-commit-action@v4
-  with:
-    commit_message: "Update timestamp in README"
+name: Update Time in Markdown
+ 
+on:
+  schedule:
+    - cron: '*/5 * * * *'  # 每5分钟执行一次
+  workflow_dispatch:
+ 
+jobs:
+  update-time:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+ 
+    - name: Get current time
+      run: echo "Current time is $(date)" >> time.md
+ 
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "github-actions"
+        git add time.md
+        git commit -m "Update time $(date)" || echo "No changes to commit"
+        git push
