@@ -46,7 +46,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandSto
 ===========================================================================
 
 
-一、自定义创建右键菜单项目
+一、自定义创建右键菜单项目 ######
 创建一级自定义目录背景右键菜单
 HKEY_CLASSES_ROOT\Directory\Background\shell
 
@@ -65,7 +65,7 @@ OnlyInBrowserWindow（仅在Explorer浏览器窗口显示，在桌面隐藏）�
 默认值填写执行命令，如cmd.exe（其他第三方程序填写完整路径）
 
 
-二、创建二级自定义目录背景右键菜单
+二、创建二级自定义目录背景右键菜单 ######
 第一步（创建二级子菜单）
 
 比如让该二级菜单可打开cmd和regedit
@@ -79,7 +79,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandSto
 
  
 
-第二步（创建一级母菜单）
+第二步（创建一级母菜单）######
 HKEY_CLASSES_ROOT\Directory\Background\shell
 新建项MyShell（项名可自定义），在MyShell项中可自定义的内容同上2、3、4、5、6、7、8
 在MyShell项中新建字符串值SubCommands
@@ -111,7 +111,7 @@ HKEY_CLASSES_ROOT\AllFilesystemObjects\shell
 ===========================================================================
 
 
-外壳上下文菜单
+外壳上下文菜单 ######
 
 Open with++
 https://openwith.en.softonic.com/
@@ -177,8 +177,18 @@ https://www.ghxi.com/sandboxie.html
 SendTo+
 OpenWith++
 FFmpeg 一键脚本
+软媒魔方
+
+Windows如何自定义右键新建菜单栏   #######
+https://blog.csdn.net/m0_50957668/article/details/125949328
+
+VC++ 外壳扩展编程之windows右键菜单
+https://developer.aliyun.com/article/339033?spm=5176.26934562.main.1.44285851M8KyN7
 
 
+#########
+WindowTabs
+https://github.com/leafOfTree/WindowTabs/releases
 
 
 
