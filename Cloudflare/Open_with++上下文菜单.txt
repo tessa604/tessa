@@ -1,0 +1,174 @@
+
+
+文件夹背景
+计算机\HKEY_CLASSES_ROOT\Directory\Background\shell
+命令存储
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell
+缓存
+计算机\HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\Shell\
+
+
+
+外壳上下文菜单
+
+Open with++
+https://github.com/stax76/OpenWithPlusPlus
+
+sendto-plus
+https://github.com/lifenjoiner/sendto-plus
+
+沙盒 V5.70
+https://github.com/sandboxie-plus/Sandboxie/releases
+
+沙盘 Sandboxie Plus v1.15.9/v5.70.9 中文免费版
+https://www.aichunjing.com/soft/2019-02-17/670.html
+https://www.ghxi.com/sandboxie.html
+
+
+SendTo+
+OpenWith++
+FFmpeg 一键脚本
+
+奶酪浏览器：古希腊掌管网上冲浪的神！
+https://www.runningcheese.com/rc-browser
+
+
+
+
+======================================================
+
+
+HKEY_CLASSES_ROOT
+    │
+    └── Directory
+        │
+        └── Background
+            │
+            └── shell
+                │
+                └── [你的菜单名称]
+                    │
+                    ├── (Default) = "菜单显示文本"
+                    │
+                    ├── Icon = "图标路径"  // 可选
+                    │
+                    └── command
+                        │
+                        └── (Default) = "执行的命令"
+
+======================================================
+
+
+FileMenuTools
+ShellMenuView
+使用PowerToys
+自定义“发送到”（Send To）菜单
+使用AutoHotkey脚本
+添加Shell扩展
+
+Right-Click Extender V2
+
+另类使用系统“发送到”功能
+Sendto Menu Editor v1.1
+sendtosendto
+
+在资源管理器中访问“%APPDATA%\Microsoft\Windows\SendTo”路径，打开“发送到”文件夹，可在其中任意对程序的快捷方式进行添加、删除等管理操作。
+
+借助右键软件SageThumbs可以实现更为方便的看图功能
+XnShell右键扩展软件
+
+为右键“发送到”添加新项目
+Send To Manager
+
+绿色小工具ShellMenuNew
+优化右键“新建”菜单中的选项
+
+======================================================
+======================================================
+
+
+Windows11右键菜单风格切换器
+https://github.com/Xiaotian0726/WinRightClickMenuSwitch
+
+Windows PowerShell ISE
+
+C# 类似右键菜单弹出窗体
+https://github.com/connwap135/PopupApp
+
+Shell
+Powerful context menu manager for Windows File Explorer
+https://github.com/moudey/Shell
+
+
+NanaZipAlternativeContextMenu
+https://github.com/hboyd2003/NanaZipAlternativeContextMenu
+
+C# 右鍵選單 [CS_ContextMenuStrip]
+https://github.com/jash-git/CS_ContextMenuStrip
+ContextMenuCompile
+https://github.com/mtli/ContextMenuCompile
+
+Window Vs 开发工具右键菜单编译脚本
+https://github.com/clouddreamfly/VsBuild
+ListBox右键菜单无法编译与失效问题
+https://github.com/GSCmax/WpfAppTest
+
+多级右键菜单，带选项选择，可多选，单选
+https://github.com/yinyangshibolange/hy-contextmenu
+添加到右键菜单的mp3-wav互转
+https://github.com/xyh20180101/Right-click-menu-mp3-wav-convert
+About
+(自用)windows右键菜单计算文件md5
+https://github.com/xul0038/Right-click-menu-GenerateMD5
+
+把bash子系统命令行集成到资源管理器右键菜单
+https://github.com/xiaoqidun/lbcmd
+
+配置注册表为 APK 文件增加右键菜单组实现快捷安装与快捷反编译
+https://github.com/MaYiFei1995/Apktool-Windows-Registry
+添加鼠标右键菜单”计算文件MD5和SHA1“
+https://github.com/id88/HashCalculator
+pycontextmenu
+一个 windows 桌面右键菜单脚本丰富工具
+https://github.com/C4skg/pycontextmenu
+
+IpFinder
+
+便捷的windows右键菜单管理系统（待初始化）131410
+https://github.com/yinque/context-menu-manager
+
+360FileBrowser64.exe
+为7-zip添加右键菜单
+https://github.com/3-5105/7zADP
+给cs文件添加一个右键菜单，保存扩展属性ItemColor
+https://github.com/dishiyicijinqiu/VSIXProject1
+右键菜单中增加将文件发送到特定邮箱的功能
+https://github.com/torainya/SuperSend
+
+
+
+DesktopMenuAndMenuList
+添加桌面右键菜单项和菜单列表（解决32位程序在64位系统注册表重定向问题）
+https://github.com/CuteLeon/DesktopMenuAndMenuList
+
+ShellAnything 是一款 C++ 开源软件，它允许用户轻松自定义 Windows 资源管理器上下文菜单并添加新选项。它定义了用户右键单击文件或目录时的特定操作。
+https://github.com/end2endzone/ShellAnything
+
+
+======================================================
+======================================================
+
+
+
+
+<br>
+<br>
+
+
+
+
+
+
+
+
+
