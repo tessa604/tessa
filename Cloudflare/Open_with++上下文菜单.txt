@@ -141,7 +141,24 @@ https://github.com/moudey/Shell?tab=readme-ov-file
 Windows的动态上下文菜单管理器
 https://github.com/oleg-shilo/shell-x
 
+Shell菜单自定义配置
 https://github.com/moudey/Shell?tab=readme-ov-file
+
+
+CustomContextMenu
+安卓右键工具，自定义菜单配置
+https://github.com/bigsinger/CustomContextMenu
+
+
+windows 右键菜单实践
+https://blog.silence.pink/p/windows-context-menu/
+
+
+自定义鼠标右键（层叠式菜单：cascading menu）
+文件系统右键、文件夹系统右键和桌面鼠标右键
+https://www.cnblogs.com/chechen/p/5169527.html
+
+
 
 
 
