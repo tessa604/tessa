@@ -42,6 +42,72 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandSto
 计算机\HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\Shell\
 
 
+
+===========================================================================
+
+
+一、自定义创建右键菜单项目
+创建一级自定义目录背景右键菜单
+HKEY_CLASSES_ROOT\Directory\Background\shell
+
+新建项Test（项名可自定义），在Test项中可自定义的内容
+
+默认值（菜单名称），（如“我的右键”），类型REG_SZ（一级菜单和二级子菜单可用、二级母菜单不可用）
+MUIVerb（菜单名称），（如“我的右键”），类型REG_SZ
+icon（图标），（ico或exe文件或其他资源文件路径），类型REG_SZ
+Position（位置），（Top，Bottom），类型REG_SZ
+Extended（按住Shift键才显示），（空值），类型REG_SZ
+HideBasedOnVelocityId（隐藏该项目），（十六进制：639bc8；十进制：6527944），类型REG_DWORD（对应的还有ShowBasedOnVelocityId，就是显示该项目，感觉没用啊）
+ProgrammaticAccessOnly（隐藏该项目），（空值），类型REG_SZ（一级菜单和二级母菜单可用，二级子菜单不可用）
+OnlyInBrowserWindow（仅在Explorer浏览器窗口显示，在桌面隐藏），（空值），类型REG_SZ（一级菜单和二级母菜单可用，二级子菜单不可用）
+在Test项下新建项command
+
+默认值填写执行命令，如cmd.exe（其他第三方程序填写完整路径）
+
+
+二、创建二级自定义目录背景右键菜单
+第一步（创建二级子菜单）
+
+比如让该二级菜单可打开cmd和regedit
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell
+
+新建项OpenCMD（项名可自定义），在OpenCMD项中可自定义的内容同上1、2、3、4、5、6
+在OpenCMD项下新建项command
+默认值填写cmd
+同上新建项OpenRegedit和其子项command，默认值填写regedit
+
+ 
+
+第二步（创建一级母菜单）
+HKEY_CLASSES_ROOT\Directory\Background\shell
+新建项MyShell（项名可自定义），在MyShell项中可自定义的内容同上2、3、4、5、6、7、8
+在MyShell项中新建字符串值SubCommands
+SubCommands值填入“OpenCMD;OpenRegedit”
+中间可加入分隔符“OpenCMD;|;OpenRegedit”
+
+
+注：这样自定义的菜单会在所有目录背景（桌面背景和文件夹背景）右键菜单中显示，
+
+若要仅在桌面背景右键菜单中显示，只需将一级菜单或二级母菜单注册表路径改成
+
+HKEY_CLASSES_ROOT\DesktopBackground\Shell
+
+ 
+
+
+文件右键菜单
+HKEY_CLASSES_ROOT\*\shell
+
+文件夹右键菜单
+HKEY_CLASSES_ROOT\Directory\shell
+
+文件和文件夹右键菜单
+HKEY_CLASSES_ROOT\AllFilesystemObjects\shell
+
+
+
+
 ===========================================================================
 
 
@@ -61,12 +127,26 @@ https://github.com/lifenjoiner/sendto-plus
 奶酪浏览器：古希腊掌管网上冲浪的神！
 https://www.runningcheese.com/rc-browser
 
+
 #######
 Shell
 https://nilesoft.org/download
 
+https://github.com/moudey/Shell?tab=readme-ov-file
+
 
 ===========================================================================
+
+
+Windows的动态上下文菜单管理器
+https://github.com/oleg-shilo/shell-x
+
+https://github.com/moudey/Shell?tab=readme-ov-file
+
+
+
+===========================================================================
+
 
 
 沙盒 V5.70
