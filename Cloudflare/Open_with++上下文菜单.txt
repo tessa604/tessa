@@ -127,6 +127,9 @@ https://github.com/lifenjoiner/sendto-plus
 奶酪浏览器：古希腊掌管网上冲浪的神！
 https://www.runningcheese.com/rc-browser
 
+开启你的超级右键，让右键菜单再次伟大
+https://www.runningcheese.com/context-menu
+
 
 #######
 Shell
