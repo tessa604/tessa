@@ -137,6 +137,29 @@ https://nilesoft.org/download
 
 https://github.com/moudey/Shell?tab=readme-ov-file
 
+##################
+Nilesoft Shell，Windows端一款高度自定义及美化的右键/上下文菜单管理工具
+https://github.com/moudey/Shell
+CMD管理员安装命令：winget install nilesoft.shell
+https://meta.appinn.net/t/topic/47395
+
+https://github.com/SHR1SHAK/nilesoft-shell-custom
+https://github.com/arnaudrevel/shellconfig
+https://github.com/Scarpy19/NilesoftShellConf
+https://github.com/TD99/NilesoftShellConfig
+https://github.com/FaridZelli/Nilesoft-Shell-Presets
+https://github.com/RubicBG/Nilesoft-Shell-Snippets
+
+Nilesoft Shell(菜单自定义) V1.9.15 最新版   #########
+https://github.com/RubicBG/Nilesoft-Shell-Snippets?tab=readme-ov-file
+https://github.com/catppuccin/nilesoft-shell
+
+My-Nilesoft-Shell  #########
+https://github.com/xicor22/My-Nilesoft-Shell?tab=readme-ov-file
+
+###########################
+
+
 
 ===========================================================================
 
