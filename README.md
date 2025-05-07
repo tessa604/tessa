@@ -55,6 +55,15 @@ Node
 <br>
 
 
+打印机错误xxxx0011b
+regedit
+HKLM\SYSTEM\CurrentControlSet\Control\Print
+RpcAuthnLevelPrivacyEnabled,REG_DWORD，0
+重启
+
+
+
+
 # Last Updated Time
 ![](time.md)
 
