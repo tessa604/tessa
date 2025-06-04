@@ -1,0 +1,30 @@
+name: Update Time in Markdown
+ 
+on:
+  schedule:
+    - cron: '0 0 * * *' # 每天午夜0点触发
+  workflow_dispatch: # 允许手动触发
+ 
+jobs:
+  update-time:
+    runs-on: ubuntu-latest
+ 
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+ 
+    - name: Update Markdown file
+      run: |
+        echo "## Current Time" >> README.md
+        echo "```" >> README.md
+        echo "$(date)" >> README.md
+        echo "```" >> README.md
+      shell: bash
+ 
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "github-actions"
+        git add README.md
+        git commit -m "Update time" || echo "No changes to commit"
+        git push origin main
