@@ -63,6 +63,7 @@ RpcAuthnLevelPrivacyEnabled,REG_DWORD，0
 
 
 
+Last updated: {{LAST_UPDATED}}
 
 # Last Updated Time
 ![](time.md)
