@@ -3,6 +3,60 @@
 
 
 
+
+
+g1-Esg2.go2https.com:20002 |G1.Esg2 企业新加坡2
+g2-hk02.go2https.com:20004 |G2.hk02 香港02
+g1-hk01.go2https.com:20005 |G1.hk01 香港01
+g2-jp4.go2https.com:20006 |G2.jp4 日本4
+g1-de1.go2https.com:20007 |G1.de1 德国1
+g2-de2.go2https.com:20008 |G2.de2 德国2
+g1-de3.go2https.com:20009 |G1.de3 德国3
+g2-sg03.go2https.com:20010 |G2.sg03 新加坡03
+g1-jp1.go2https.com:20011 |G1.jp1 日本1
+g2-sg02.go2https.com:20012 |G2.sg02 新加坡02
+g1-s7.go2https.com:20013 |G1.s7 日本s7
+g2-jp3.go2https.com:20014 |G2.jp3 日本3
+g1-ejp1.go2https.com:20015 |G1.ejp1 企业日本1
+g2-ajp2.go2https.com:20016 |G2.ajp2 日本2
+g1-ejp3.go2https.com:20017 |G1.ejp3 企业日本2
+g2-ajp1.go2https.com:20018 |G2.ajp1 日本1
+g1-jp2.go2https.com:20019 |G1.jp2 日本2
+g2-ajp4.go2https.com:20020 |G2.ajp4 日本4
+g1-ajp3.go2https.com:20021 |G1.ajp3 日本3
+g2-s6.go2https.com:20022 |G2.s6 美国s6
+g1-s1.go2https.com:20023 |G1.s1 美国s1
+g2-us4.go2https.com:20024 |G2.us4 美国4
+g1-us2.go2https.com:20025 |G1.us2 美国2
+g2-eus1.go2https.com:20026 |G2.eus1 企业美国1
+g1-eus2.go2https.com:20027 |G1.eus2 企业美国2
+g2-eus3.go2https.com:20028 |G2.eus3 企业美国3
+g1-us3.go2https.com:20029 |G1.us3 美国3
+g2-s2.go2https.com:20030 |G2.s2 美国s2
+g1-s4.go2https.com:20031 |G1.s4 美国s4
+g2-uk01.go2https.com:20032 |G2.uk01 英国01
+g1-esg1.go2https.com:20033 |G1.esg1 企业新加坡1
+g2-au2.go2https.com:20034 |G2.au2 澳洲2
+g1-s3.go2https.com:20035 |G1.s3 美国s3
+g2-uk.go2https.com:20036 |G2.uk 英国
+g1-s8.go2https.com:20037 |G1.s8 美国8
+g2-sg01.go2https.com:20038 |G2.sg01 新加坡01
+g1-in1.go2https.com:20039 |G1.in1 印度1
+g2-au1.go2https.com:20040 |G2.au1 澳洲1
+g1-s5.go2https.com:20041 |G1.s5 美国s5
+g2-us1.go2https.com:20042 |G2.us1 美国1
+g1-us5.go2https.com:20043 |G1.us5 美国5
+g2-ejp4.go2https.com:20044 |G2.ejp4 企业日本4
+
+
+
+
+======================================================================================
+======================================================================================
+
+
+
+
 Windows键+，：暂时隐藏窗口以显示桌面。
 
 Windows键+D：最小化所有窗口并转到桌面。
