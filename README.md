@@ -16,6 +16,21 @@ VPN
 [点击][at3]
 
 <br>
+<br>
+
+五个可靠的免费V2ray节点订阅地址，分别为：
+https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
+https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
+https://raw.githubusercontent.com/free18/v2ray/main/v.txt
+https://oneclash.githubrowcontent.com/2025/07/20250706.txt（需访问 https://oneclash.cc 获取最新地址）
+https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray
+
+
+
+
+
+
+<br>
 
 [V2ray-Configs][at4]
 
